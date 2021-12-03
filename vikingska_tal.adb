@@ -1,3 +1,6 @@
+--Läser in strängar från textfil och ger värde från a-->g samt placerar sorterad sträng och värde i separat textfil. Huvudprogram skriver ut största värdet
+--och sorterad sträng.
+
 with Ada.Command_Line;                       Use Ada.Command_Line;
 with Ada.Text_IO;                            Use Ada.Text_IO;
 with Ada.Integer_Text_IO;                    Use Ada.Integer_Text_IO;
