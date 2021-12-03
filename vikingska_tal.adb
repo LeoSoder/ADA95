@@ -1,4 +1,3 @@
--------- Leo Söderholm leoso997 och Zackarias Ouacha zacou776
 with Ada.Command_Line;                       Use Ada.Command_Line;
 with Ada.Text_IO;                            Use Ada.Text_IO;
 with Ada.Integer_Text_IO;                    Use Ada.Integer_Text_IO;
