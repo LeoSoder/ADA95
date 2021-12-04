@@ -144,7 +144,14 @@ Program := To_Unbounded_String(Command_Name);
       Put("Största som heltal: ");
       Put(Max_Value, 0);
       New_Line;
-      Put("Största som vikingskt tal: " & (Max_String));
+       Put("Största som vikingskt tal: ");
+      for i of Max_String loop
+         if i = ' ' then
+            null;
+         else
+            Put(i);
+         end if;
+      end loop;
    end if;
 
 end Vikingska_Tal;
